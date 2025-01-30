@@ -37,22 +37,21 @@
     color: whitesmoke;
     margin-left:2rem;
   }
-  .Client-List{
-    display:flex;
-    flex-wrap:wrap;
+  .Client-List {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+    overflow-y: auto; 
     scroll-behavior: smooth;
-  }
+    max-height: 400px; 
+}
   .IndvidualClient {
-    border-radius:0.2rem;
-    height:3rem;
-    display: block;
     color: white; 
-    background-color: rgb(5, 55, 80);
-    margin-left:0.5rem; 
-    margin-bottom:0.5rem;
     text-align:center;
     font-size:1.1rem;
-    padding-top:0.5rem;
+}
+.client-text{
+    color:white;
 }
 
 .flex-editorbutton{

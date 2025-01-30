@@ -14,6 +14,11 @@ function App() {
             theme:{
               primary:'red',
             },
+          },
+          error:{
+            theme:{
+              primary:'red',
+            }
           }
         }}
       >
@@ -22,7 +27,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}> </Route>
-        <Route path='/Editor' element={<Editor/>}></Route>
+        <Route path='/editor/:teamId' element={<Editor/>}></Route>
       </Routes>
       </BrowserRouter>
       </div>

@@ -1,0 +1,74 @@
+
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    width:100%;
+  }
+  
+  .MainEditor {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+  }
+  
+  .Editor-part1 {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding:1.5rem;
+   
+  }
+  .editor-subpart{
+    display:flex;
+  }
+  
+  .Editor-part2 {
+    background-color: lightgray; 
+  }
+  .image{
+    width:7rem;
+    height:5rem;
+    margin-bottom:2rem;
+  }
+  
+  .form-titleEditor {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    margin-left:2rem;
+  }
+  .Client-List{
+    display:flex;
+    flex-wrap:wrap;
+    scroll-behavior: smooth;
+  }
+  .IndvidualClient {
+    border-radius:0.2rem;
+    height:3rem;
+    display: block;
+    color: white; 
+    background-color: rgb(5, 55, 80);
+    margin-left:0.5rem; 
+    margin-bottom:0.5rem;
+    text-align:center;
+    font-size:1.1rem;
+    padding-top:0.5rem;
+}
+
+.flex-editorbutton{
+    width: 100%;
+  background-color: #1591c7;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left:0.5rem;
+  margin-top:10rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.flex-editorbutton:hover{
+    background-color: #06374c;
+    transform: scale(1.05);
+}

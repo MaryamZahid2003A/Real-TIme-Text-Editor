@@ -71,3 +71,33 @@
     background-color: #06374c;
     transform: scale(1.05);
 }
+.Editingpage{
+  border: 2px solid #061533;
+  border-radius: 8px;
+  min-height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+.ql-container {
+  border: 2px solid #031c37 ;
+  border-radius: 8px; 
+  min-height: 300px; 
+}
+
+.ql-toolbar {
+  border: 2px solid #636771 !important;
+  border-radius: 4px;
+  background-color: #c9c7c7;
+  padding: 10px; 
+}
+
+.ql-editor {
+  min-height: 100vh; 
+  font-size: 16px; 
+  background-color: #fff; 
+  padding: 10px; 
+}
+
+.ql-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
